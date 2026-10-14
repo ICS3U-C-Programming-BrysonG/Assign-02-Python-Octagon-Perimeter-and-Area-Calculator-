@@ -10,19 +10,15 @@ import math
 def main():
 
     # Get the side length from the user and convert to float
-    L = float(
-        input(
-            "Hello, welcome to Brysons Octagon Area and Perimeter calculator! Enter the side length (cm):"
-        )
-    )
+    L = float(input("Hello, welcome to Brysons Octagon Area and Perimeter calculator! Enter the side length (cm):"))
 
     # Calculate the Perimeter of the Octagon
     Perimeter = 8 * L
 
     # Calculate the area of the Octagon
-    Area = 2 * (1 + math.sqrt(2)) * L**2
+    Area = 2 * (1 + math.sqrt(2)) * L ** 2
 
-    # Display the circumference and area to the user with proper units
+    # Display the Perimeter and Area to the user
     print("The Perimeter of the Octagon is: {:.2f} cm".format(Perimeter))
     print("The Area of the Octagon is: {:.2f} cm²".format(Area))
 
