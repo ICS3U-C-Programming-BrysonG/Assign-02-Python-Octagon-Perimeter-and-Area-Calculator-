@@ -10,7 +10,11 @@ import math
 def main():
 
     # Get the side length from the user and convert to float
-    L = float(input("Hello, welcome to Brysons Octagon Area and Perimeter calculator! Enter the side length (cm):"))
+    L = float(
+        input(
+            "Hello, welcome to Brysons Octagon Area and Perimeter calculator! Enter the side length (cm):"
+        )
+    )
 
     # Calculate the Perimeter of the Octagon
     Perimeter = 8 * L
